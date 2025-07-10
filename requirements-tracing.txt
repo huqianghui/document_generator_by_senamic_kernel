@@ -1,0 +1,18 @@
+# Tracing and monitoring dependencies for improved error handling
+# Run: pip install -r requirements-tracing.txt
+
+# Azure Monitor support
+opentelemetry-exporter-azure-monitor>=1.0.0
+
+# Console exporter for fallback
+opentelemetry-exporter-console>=1.0.0
+
+# Core OpenTelemetry packages (might already be installed)
+opentelemetry-api>=1.20.0
+opentelemetry-sdk>=1.20.0
+
+# Additional instrumentation (optional)
+opentelemetry-instrumentation-logging>=0.41b0
+opentelemetry-instrumentation-openai>=0.22.0
+opentelemetry-instrumentation-urllib3>=0.41b0
+opentelemetry-instrumentation-threading>=0.41b0
